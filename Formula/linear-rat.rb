@@ -1,25 +1,25 @@
 class LinearRat < Formula
   desc "A fast, keyboard-first terminal client for Linear"
   homepage "https://github.com/cxrlos/linear-rat"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/cxrlos/linear-rat/releases/download/v0.2.0/linear-rat-aarch64-apple-darwin.tar.xz"
-      sha256 "081c84a45b8f08b63e6e173d0be84aed38ea157ea18280c59bc1ffbc1f7739cd"
+      url "https://github.com/cxrlos/linear-rat/releases/download/v0.3.0/linear-rat-aarch64-apple-darwin.tar.xz"
+      sha256 "b78c66afb0ef6a0d755a5a874c29bc9ad1bb91fee3184cfbf69fc4d3bfe3e227"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cxrlos/linear-rat/releases/download/v0.2.0/linear-rat-x86_64-apple-darwin.tar.xz"
-      sha256 "c8ff7474dbabf15684b0670b9c73a4b91ff7427d51e3af26495f79c9e2b2675a"
+      url "https://github.com/cxrlos/linear-rat/releases/download/v0.3.0/linear-rat-x86_64-apple-darwin.tar.xz"
+      sha256 "8f9544e2cbd77bbc96ad8d7cd02e953572de71ab0783c2335779569324c16f80"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/cxrlos/linear-rat/releases/download/v0.2.0/linear-rat-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c22d0433a287af527625e7fcffaad09dd50fe6237c9a8591c6f4101be0a70b07"
+      url "https://github.com/cxrlos/linear-rat/releases/download/v0.3.0/linear-rat-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "9c1a785ac3ede49cefa5a4ca26002cbeb384be2343be2ea3f79a8fe1f44e8a77"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cxrlos/linear-rat/releases/download/v0.2.0/linear-rat-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "cbf2f5b34f4544b9a46748e090d343095494b59a775bb74f6e233fb6d690c772"
+      url "https://github.com/cxrlos/linear-rat/releases/download/v0.3.0/linear-rat-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e1676b8c3f89a036cf333b66f4cc32b1ee07fc2c38bfc1c4af7b97e9f8fe1917"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
